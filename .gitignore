@@ -1,0 +1,174 @@
+# ===================================
+# Backend (Java/Maven/Spring Boot)
+# ===================================
+
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### Maven ###
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+### Spring Boot ###
+.springBeans
+.sts4-cache
+
+# ===================================
+# Frontend (Node/Angular)
+# ===================================
+
+### Compiled output ###
+/dist
+/tmp
+/out-tsc
+/bazel-out
+
+### Node ###
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+.pnpm-debug.log*
+
+### Angular ###
+/.angular/cache
+.sass-cache/
+/connect.lock
+/coverage
+/libpeerconnection.log
+testem.log
+/typings
+__screenshots__/
+
+# ===================================
+# IDEs and Editors
+# ===================================
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### Visual Studio Code ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/mcp.json
+.history/*
+
+### Other Editors ###
+*.launch
+*.sublime-workspace
+.c9/
+
+# ===================================
+# Operating System Files
+# ===================================
+
+### macOS ###
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+### Windows ###
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+### Linux ###
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ===================================
+# Logs and Databases
+# ===================================
+
+*.log
+*.sql
+*.sqlite
+*.db
+
+# ===================================
+# Environment and Secrets
+# ===================================
+
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+secrets/
+
+# ===================================
+# Build and Dependency Directories
+# ===================================
+
+dist/
+build/
+target/
+node_modules/
+
+# ===================================
+# Testing and Coverage
+# ===================================
+
+/coverage
+*.coverage
+.nyc_output
+junit.xml
+test-results/
